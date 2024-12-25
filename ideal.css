@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(23, 67, 150);
+
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    /* background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.settings-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: x-large;
+    background: none;
+    border: none;
+}
+
+.Title {
+    margin-top: 30px;
+    font-family: Inter, sans-serif;
+    color: rgb(215, 225, 255);
+    font-size: xx-large;
+}
+
+.vryad {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.vryad p {
+    color: rgb(215, 225, 255);
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.vryad img {
+    width: 50px;
+    height: 50px;
+}
+
+.strelka {
+    font-size: xx-large;
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.down-line {
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(to top,  #0d2d68 20%, #141c688e 40%,rgb(13, 52, 124) 60%, rgb(21, 67, 153) 100%);
+    position: fixed; /* Линия закреплена внизу экрана */
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20px 0; */
+
+}
+.down-line button{
+    font-size: xx-large;
+    color: #ffffff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 30px;
+
+}
